@@ -98,4 +98,6 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+require 'selenium-webdriver'
+Selenium::WebDriver::Chrome.driver_path = "/mnt/c/Users/user/chromedriver_win32/chromedriver.exe"
 end
